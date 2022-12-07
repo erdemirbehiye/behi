@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+      margin:0%;
+        padding:0%;
+      background-color: antiquewhite;
+    }
+  
+  
+    a:link {
+      text-decoration: none;
+    }
+  
+    #time-span{
+      font-family: 'Courier New', Courier, monospace;
+      color: antiquewhite;
+      float: left;
+      padding-left: 25px;
+  
+    }
+    
+  
+    .icon-bar {
+      width: 100%; /* Full-width */
+      height: 2%;
+      background-color: #333333; /* Dark-grey background */
+      overflow: auto; /* Overflow due to float */
+      display: flex;
+      align-items: center;
+    /* justify-content: start */
+    }
+  
+  
+  
+    .image {
+      padding-left: 10px;
+      width: 1.5%;
+      float: left;
+    }
+  
+    .image img{
+      max-width: 100%;
+      max-height: 100%;
+      display: block; /* remove extra space below image */
+      border-radius: 8px;
+      filter: grayscale(100%);
+    }  
+  
+    .text {
+      width: 80% ;
+      font-size: 14px;
+      padding-left: 20px;
+      float: left;
+      font-family: 'Courier New', Courier, monospace;
+      color: antiquewhite;
+    }
+  
+    .social {
+      padding-left: 10px;
+      width: 20%;
+      float: right;
+      display: block;
+    }
+  
+    i{
+      float: left;
+      padding-left: 20px;
+      
+    }
+  
+  
+    .container{
+        width: 80%;
+        height: 50%;
+        background-color: black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+    }
+
+    .header2 h2{
+        padding-top: 1%;
+        padding-left: 28.9%;
+        padding-bottom: 1%;
+    }
+
+    .description{
+        padding-top: 1%;
+        padding-left: 29.1%;
+        padding-bottom: 1%;
+        padding-right: 29.1%;
+    }
+
+    .description a{
+        font-style: italic;
+        text-decoration: underline;
+    }
+
+
+
+
+  
+    .header p{
+      color: rgba(255, 255, 255, 0.85);
+      font-family: "Trirong", serif;
+      text-align: center;
+      text-transform: uppercase;
+      padding: 0 23%;
+    }
+    .header h1{
+      text-align: center;
+      padding-top: 20px;
+      color: rgba(255, 255, 255, 0.85);
+      font-family: "Trirong", serif;
+      font-size: 50px;
+      text-transform: uppercase;
+  
+    }
+    
+    .row {
+      display: -ms-flexbox; /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE10 */
+      flex-wrap: wrap;
+      padding: 0 30px;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    /* Create four equal columns that sits next to each other */
+    .column {
+      -ms-flex: 30%; /* IE10 */
+      flex: 30%;
+      max-width: 30%;
+      padding: 0 20px;
+    }
+    
+    .column img {
+      margin-top: 15px;
+      vertical-align: middle;
+      width: 100%;
+      border: 2px antiquewhite solid ;
+    }
+    
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+      .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+    
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
+  

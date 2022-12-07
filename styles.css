@@ -1,0 +1,230 @@
+body {
+    /* background-image: url('./images/gigigi.gif');
+    background-size: cover;
+    
+    height: 100vh; */
+    margin:0%;
+	  padding:0%;
+    overflow: hidden; /* Hide scrollbars */
+
+  }
+
+
+  a:link {
+    text-decoration: none;
+  }
+
+  #time-span{
+    font-family: 'Courier New', Courier, monospace;
+    color: antiquewhite;
+    float: left;
+    padding-left: 25px;
+
+  }
+  
+
+  .gif-container {
+    background-image: url('./images/gigigi.gif');
+    background-size: cover;
+  
+    height: 100vh;
+  }
+
+  .cute-gif{
+    /* background-image: url('./images/CoordinatedAgitatedIchidna-max-1mb.gif'); */
+    /* background-repeat: no-repeat; */
+    /* height: 20vh; */
+    width: 20%;
+    padding-top: 30%;
+    padding-left: 20%;
+  }
+
+  .icon-bar {
+    width: 100%; /* Full-width */
+    height: 2%;
+    background-color: #333333; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+    display: flex;
+    align-items: center;
+  /* justify-content: start */
+  }
+
+
+
+  .image {
+    padding-left: 10px;
+    width: 1.5%;
+    float: left;
+  }
+
+  .image img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+    border-radius: 8px;
+    filter: grayscale(100%);
+}
+
+  .text {
+    width: 80% ;
+    font-size: 14px;
+    padding-left: 20px;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: antiquewhite;
+  }
+
+  .social {
+    padding-left: 10px;
+    width: 20%;
+    float: right;
+    display: block;
+  }
+
+  i{
+    float: left;
+    padding-left: 20px;
+    
+  }
+
+
+  #cv {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    width: 6%;
+    left: 400px;
+    top: 400px;
+
+  }
+
+  #gan {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    width: 6%;
+    left: 20px;
+    top: 50px;
+
+  }
+
+  #sdr {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    width: 6%;
+    left: 1700px;
+    top: 200px;
+
+  }
+
+  #walking {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    width: 6%;
+    left: 1500px;
+    top: 200px;
+
+  }
+
+  #juliet{
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    left: 1500px;
+    top: 600px;
+    width: 6%;
+
+  }
+
+  #foxtrot{
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    left: 1300px;
+    top: 700px;
+    width: 6%;
+
+  }
+
+  #exploring-my-painful-relationship-with-money-by-haptic-interaction{
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    width: 6%;
+    left: 150px;
+    top: 250px;
+  }
+  #robotic-workshop{
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    width: 6%;
+    left: 1700px;
+    top: 50px;
+  }
+
+
+  #pixel-wise{
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    width: 6%;
+    left: 1500px;
+    top: 400px;
+  }
+
+  #pixel-wise-3D{
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    left: 1700px;
+    top: 500px;
+    width: 6%;
+  }
+
+  #glass-egg{
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    left: 1700px;
+    top: 700px;
+    width: 6%;
+  }
+
+  #suprise{
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    left: 400px;
+    top: 100px;
+    width: 6%;
+  }
+ 
+  #mydivheader {
+ 
+    cursor: move;
+    z-index: 9;
+  }
+  #mydivheader img{
+    max-width: 100%;
+    max-height: 100%;
+    
+  }
+  #mydivheader p{
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 2px 2px 5px black;
+
+  }
+
+  ul {  
+    list-style-type: none;  
+    padding: 0%;
+    }  
+
+li{
+    margin:0%;
+	padding:0%;
+}
