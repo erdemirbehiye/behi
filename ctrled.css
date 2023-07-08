@@ -1,0 +1,53 @@
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Style the body */
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      cursor: none;
+    }
+
+    .image-container {
+      position: relative;
+      background-image: url('./images/mirror.jpg');
+      background-size: cover;
+      background-position: top;
+
+      background-repeat: no-repeat; 
+      
+      height: 100vh;
+    }
+     img{
+      position: absolute;
+
+    }
+
+    #follow {
+
+      z-index: 1005;
+      width: 25px;
+      height: 25px;
+      
+      position: absolute;
+      /* overflow: scroll; */
+    }
+
+    
+
+.ripple {
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  position: fixed;
+  border-radius: 50%;
+  border: 1px solid palevioletred;
+}
+
+@keyframes ripple-effect {
+  to {
+     transform:scale(15);
+     opacity: 0.01;
+  }
+}

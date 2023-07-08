@@ -26,6 +26,7 @@ a:link {
 .gif-container {
   background-image: url('./images/gigigi.gif');
   background-size: cover;
+  background-position: center;
 
   height: 100vh;
 }
@@ -53,6 +54,7 @@ a:link {
 
 .image {
   padding-left: 10px;
+  width: 10% ;
   width: 1.5%;
   float: left;
 }
@@ -66,12 +68,13 @@ a:link {
 }
 
 .text {
-  width: 80% ;
+  width: 70% ;
   font-size: 14px;
   padding-left: 20px;
   float: left;
   font-family: 'Courier New', Courier, monospace;
   color: antiquewhite;
+  display: block;
 }
 
 .social {
@@ -79,11 +82,14 @@ a:link {
   width: 20%;
   float: right;
   display: block;
+  margin-right: 5%;
 }
 
 i{
-  float: left;
-  padding-left: 20px;
+  float: right;
+  padding-right: 5%;
+  width: 10%;
+  /* display: inline; */
   
 }
 
@@ -202,7 +208,7 @@ i{
   width: 6%;
 }
 
-#virus{
+#ctrled{
 
   position: absolute;
   z-index: 9;
